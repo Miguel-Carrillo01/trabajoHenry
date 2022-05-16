@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Ingreso Operation 7</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <main>
+    <section class="formulario">
+        <form>
+            <header> 
+                <h1>Formulario de ingreso</h1><br>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Volver</a></li>
+                    </ul>
+                </nav>
+                
+            </header>
+            <nav>
+                
+                <label id="name" for="Nombre">Nombre:</label><br>
+                <input  type="text" id="Nombre" placeholder="Escriba su nombre" required=""><br>
+                <label id="apell" for="Apellido">Apellidos: *</label><br>
+                <input type="text" id="Apellido" placeholder="Escriba su apellido" maxlength="25" minlength="7" required="">
+                <br>
+                <label id="edad" for="Edad">Edad:</label><br>
+                <input type="number" id="Edad" placeholder="Escriba su edad">
+                <br>
+                <label id="email" for="Email">Correo Electronico:</label><br>
+                <img id="Logoop7" src="images/logoOp7.jpg" alt="Logo">
+                <input type="email" id="Email" placeholder="Escriba su correo electronico">
+                <br>
+                <label id="contraseña" for="Contraseña">Contraseña:</label><br>
+                <input type="password" id="Contraseña" placeholder="Escriba su contraseña" required minlength="8" maxlength="20">
+                <br>
+                <label id="telefono" for="Telefono">Telefono:</label><br>          
+                <input type="tel" id="Telefono" placeholder="Escriba su numero de telefono" required minlength="10" maxlength="10">
+                <br>
+                <label id="fecha" for="date">Fecha:*</label><br>
+                <input type="date" id="date" placeholder="" required minlength="10" maxlength="10">
+                <br>
+            </nav>
+            <img id="Logoop72" src="images/logoOp7.jpg" alt="Logo">
+            <div>
+                <input type="radio" name="conect" id="internet">
+                <label id="internet" for="internet">Inicio por Softnyx</label><br>
+                <input type="radio" name="conect" id="whatsapp">
+                <label id="whatsapp" for="whatsapp">Inicio por facebook</label><br>
+                <input type="radio" name="conect" id="celular">
+                <label id="celular" for="celular">Inicio por Email</label><br>
+            </div> <br>
+            <div>
+                <input type="checkbox" name="pc" id="PC">
+                <label id="celular2" for="Celular">PC</label>
+                <input type="checkbox" name="celular" id="Celular">
+                <label id="celular3" for="Celular">Consola</label>
+            </div>
+        </select><
+        <!-- <label id="mensaje" for="mensaje">Escriba su mensaje</label><br>
+        <textarea name="" id="mensaje" cols="10" rows="5"></textarea><br> -->
+          <br>
+          <input type="reset" value="Borrar">
+          <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer>
+        <h2>Muchas gracias por hacer nuestro formulario de ingreso</h2>
+        <h3>Miguel Carrillo-Sog</h3>
+    </footer>
+</main>
+</body>
+</html>

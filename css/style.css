@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../images/Fondoop7.jpg);
+    margin: 5rem;
+}
+
+main{
+    width: 1024px;
+    background: rgb(254, 254, 254);
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+}
+
+header > h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+nav{
+    margin-top: 80px;
+    width: 50%;
+    float: right;
+}
+
+
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #000000;
+    color: #fff;
+    padding: 2.6px;
+    border-radius: 70px;
+    
+}
+
+nav ul li a:hover{
+    color: #000000;
+    background: #001aff;
+}
+
+.logo img {
+    width: 20px;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    background-image: 20px;
+}
+
+
+section{
+    padding: 50px;
+}
+
+
+.piolin{
+    width: 38%;
+    float: left;
+}
+
+.texto-lateral{
+    float: left;
+    width: 70%;
+    margin-top: 20px;
+    text-align: justify;
+    margin-right: 2rem;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.formulario {
+    border: 2px solid red;
+}
+
+h2 {
+    margin: 3rem;
+    font-size: 40px;
+}
+
+h1 {
+    margin-left: 130px;
+    font-size: 60px;
+}
+
+iframe {
+    margin: 3rem;
+}
